@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package interview;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+/**
+ *
+ * @author 90345
+ */
+public class Interview {
+private static Scanner scanner=new Scanner(System.in);
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Input First Name: ");
+        String firstname=scanner.nextLine();
+        System.out.println("Your First Name is "+firstname);
+        System.out.println("Input Last Name: ");
+        String lastname=scanner.nextLine();
+        System.out.println("Your Last Name is "+lastname);
+        System.out.println("Input Home Town: ");
+        String hometown=scanner.nextLine();
+        System.out.println("Your Home Town is "+hometown);
+        System.out.println("Input Date of Birth(ddmmyyyy): ");
+        int DOB=scanner.nextInt();
+        System.out.println("Input KCSE Grade: ");
+        String grade=scanner.nextLine();
+        System.out.println("Your KCSE Grade is "+grade);
+        // TODO code application logic here
+    }
+    
+}
